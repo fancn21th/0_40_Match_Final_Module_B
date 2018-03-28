@@ -24,12 +24,13 @@
     display: none;
 }
 
+/* 0 - 459 */
 @media screen and (max-width: 459px) {
     .hotel-v {
         order: 0;
     }
 }
-
+/* 460 - 649 */
 @media screen and (min-width: 460px) {
     .hotel-v {
         order: 0;
@@ -43,7 +44,7 @@
         order: 2;
     }
 }
-
+/* 650 - 949 */
 @media screen and (min-width: 650px) {
     .hotel-v {
         width: 20%;
@@ -70,7 +71,7 @@
         width: 25%;
     }
 }
-
+/* 950 - 1249 */
 @media screen and (min-width: 950px) {
     .hotel-v {
         width: 10%;
@@ -90,11 +91,28 @@
         display: block;
     }
 }
-
-@media screen and (min-width: 1307px) {
+/* 1250+ */
+@media screen and (min-width: 1250px) {
     main, .container {
-        width: 1307px;
+        max-width: 1307px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .hotel-v {
+        width: 6.66%;
+        order: 0;
+    }
+    .hotel-detail {
+        width: 13.33%;
+        order: 1;
+    }
+    #content{
+        width: 60%;
+        order: 2;
+    }
+    .things-to-do {
+        width: 20%;
+        order: 3;
+        display: block;
     }
 }
