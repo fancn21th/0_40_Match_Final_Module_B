@@ -1,0 +1,9 @@
+/*
+ * 响应式样式
+ */
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
