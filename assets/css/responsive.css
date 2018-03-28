@@ -17,12 +17,28 @@
     order: 10;
 }
 
-@media screen and (max-width: 459px) {
+.things-to-do {
+    display: none;
+}
 
+@media screen and (max-width: 459px) {
+    .hotel-v {
+        order: 0;
+    }
 }
 
 @media screen and (min-width: 460px) {
-
+    .hotel-v {
+        order: 0;
+    }
+    #content{
+        width: 75%;
+        order: 2;
+    }
+    .hotel-detail {
+        width: 25%;
+        order: 1;
+    }
 }
 
 @media screen and (min-width: 650px) {
@@ -33,6 +49,10 @@
 
 }
 
-@media screen and (min-width: 1250px) {
-
+@media screen and (min-width: 1307px) {
+    main, .container {
+        width: 1307px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
