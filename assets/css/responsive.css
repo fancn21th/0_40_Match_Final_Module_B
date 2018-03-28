@@ -3,9 +3,12 @@
  */
 
 .container {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+.content {
+    width: 100%;
 }
 
 .hotel-v,
@@ -31,22 +34,61 @@
     .hotel-v {
         order: 0;
     }
-    #content{
-        width: 75%;
-        order: 2;
-    }
     .hotel-detail {
         width: 25%;
         order: 1;
     }
+    #content{
+        width: 75%;
+        order: 2;
+    }
 }
 
 @media screen and (min-width: 650px) {
-
+    .hotel-v {
+        width: 20%;
+        order: 0;
+    }
+    .hotel-detail {
+        width: 20%;
+        order: 1;
+    }
+    #content{
+        width: 60%;
+        order: 2;
+    }
+    .contact {
+        width: 25%;
+    }
+    .footer-col {
+        width: 25%;
+    }
+    .subscribe {
+        width: 25%;
+    }
+    .hotels-group {
+        width: 25%;
+    }
 }
 
 @media screen and (min-width: 950px) {
-
+    .hotel-v {
+        width: 10%;
+        order: 0;
+    }
+    .hotel-detail {
+        width: 15%;
+        order: 1;
+    }
+    #content{
+        width: 60%;
+        order: 2;
+    }
+    .things-to-do {
+        width: 15%;
+        order: 3;
+        display: block;
+    }
 }
 
 @media screen and (min-width: 1307px) {
